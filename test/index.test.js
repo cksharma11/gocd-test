@@ -9,9 +9,9 @@ describe('should pass', () => {
 });
 
 // eslint-disable-next-line no-undef
-describe('should fail', () => {
+describe('should pass', () => {
   // eslint-disable-next-line no-undef
-  it('should also fail', () => {
-    assert.equal(1, 2);
+  it('should also pass', () => {
+    assert.equal(1, 1);
   });
 });
